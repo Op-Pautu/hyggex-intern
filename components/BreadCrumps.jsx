@@ -4,7 +4,7 @@ import ArrowSvg from "./ArrowSvg";
 
 const BreadCrumbs = () => {
   return (
-    <div className="mt-[68px] flex items-center">
+    <div className="mt-[72px] flex items-center">
       <HomeSvg />
       <ArrowSvg />
       <p className="text-[#696671] font-[500] text-[18px]">Flashcard</p>
