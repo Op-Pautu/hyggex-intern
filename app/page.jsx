@@ -2,6 +2,7 @@ import BreadCrumbs from "@/components/BreadCrumps";
 import Card from "@/components/Card";
 import CardButtons from "@/components/CardButtons";
 import Categories from "@/components/Categories";
+import FlashcardSection from "@/components/FlashcardSection";
 import Header from "@/components/Header";
 import Title from "@/components/Title";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Categories />
       <Card />
       <CardButtons />
+      <FlashcardSection />
     </main>
   );
 }
