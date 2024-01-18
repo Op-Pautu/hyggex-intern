@@ -2,7 +2,7 @@ import React from "react";
 
 const Categories = () => {
   return (
-    <div className="w-full mx-auto mt-[56px] border-red-400 border-t">
+    <div className="w-full mx-auto mt-[56px] ">
       <ul className="flex justify-center gap-[64px]">
         <li className="text-[20px] text-[#06286E] font-[700] text-center pb-3">
           Study
