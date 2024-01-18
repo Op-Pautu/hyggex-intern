@@ -6,7 +6,7 @@ import Window from "./Svg/Window";
 
 const CardButtons = () => {
   return (
-    <div className="mt-[32px]  w-full mx-auto  border-t border-red-500">
+    <div className="mt-[32px]  w-full mx-auto">
       <div className="flex items-center justify-center gap-[140px]">
         <Rotate />
         <div className="flex gap-[43px] items-center justify-center">
