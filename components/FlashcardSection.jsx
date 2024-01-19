@@ -1,24 +1,24 @@
 import React from "react";
 import HyggexLogo from "./Svg/HyggexLogo";
 import Plus from "./Svg/Plus";
+import Image from "next/image";
 
 const FlashcardSection = () => {
   return (
     <section>
-      <div className="flex items-center justify-between mt-[90px]">
-        <div className="flex gap-[21px] items-center relative ">
-          <svg
-            width="81"
-            className=""
-            height="81"
-            viewBox="0 0 81 81"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="40.3" cy="40.3" r="40.3" fill="white" />
-          </svg>
-          {/* <div className="absolute top-0 left-0 bg-[url('/Rectangle.png')]  bg-fuchsia-950 bg-cover bg-center">
-            sadsad
+      <div className="flex items-center  mt-[90px] relative">
+        <div className="flex gap-[21px] items-center mr-auto ">
+          <div className="">
+            <Image
+              src="/logo.png"
+              alt="logo"
+              width={80}
+              height={80}
+              className=""
+            />
+            {/* <span className=" bg-[url('/Rectangle.png')] w-[34px] h-[44px]  bg-cover  bg-center" /> */}
+          </div>
+          {/* <div className="rounded-full w-[80.6px] h-[80.6px] bg-[#FFF] relative ">
           </div> */}
           <div>
             <p className="text-[#696671] text-[12.4px] font-[700]">
